@@ -1,19 +1,20 @@
 body {
-  background: linear-gradient(to right, #000000, #1a1a1a);
+  background: linear-gradient(to right, black, #1a1a1a);
   color: white;
   text-align: center;
   font-family: Arial, sans-serif;
+  padding-top: 100px;
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 50px;
 }
 
 button {
-  padding: 10px 20px;
+  padding: 12px 24px;
   border: none;
+  border-radius: 12px;
   background: cyan;
-  color: black;
-  border-radius: 10px;
+  font-size: 18px;
   cursor: pointer;
 }
