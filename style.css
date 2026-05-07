@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(to right, black, #1a1a1a);
+  background: linear-gradient(to right, #000000, #1a1a1a);
   color: white;
   text-align: center;
   font-family: Arial, sans-serif;
@@ -7,14 +7,29 @@ body {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 55px;
+  text-shadow: 0 0 15px cyan;
+}
+
+p {
+  font-size: 20px;
+  color: #cfcfcf;
 }
 
 button {
-  padding: 12px 24px;
+  margin-top: 20px;
+  padding: 14px 28px;
   border: none;
-  border-radius: 12px;
+  border-radius: 14px;
   background: cyan;
+  color: black;
   font-size: 18px;
+  font-weight: bold;
   cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px cyan;
 }
